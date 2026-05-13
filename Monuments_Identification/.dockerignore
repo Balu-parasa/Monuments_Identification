@@ -1,0 +1,22 @@
+# Git
+.git
+.gitignore
+
+# Environments
+venv/
+.venv/
+env/
+ENV/
+*.pyc
+__pycache__/
+
+# Django Static Output (generated during build)
+staticfiles/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

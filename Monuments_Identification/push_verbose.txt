@@ -1,0 +1,1309 @@
+﻿git : 19:13:58.077488 
+http.c:870             
+ == Info: Couldn't 
+find host 
+huggingface.co in the 
+.netrc file; using 
+defaults
+At line:1 char:28
++ 
+$env:GIT_CURL_VERBOSE 
+= 1; git push hf main 
+--force 2>&1 | 
+Out-File p ...
++                      
+      ~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (19:13:58.0774   
+ 88... using defaul    
+ts:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+19:13:58.096272 
+http.c:870             
+ == Info:   Trying 
+54.230.71.28:443...
+19:13:58.105655 
+http.c:870             
+ == Info: Connected to 
+huggingface.co 
+(54.230.71.28) port 443
+19:13:58.106654 
+http.c:870             
+ == Info: ALPN: curl 
+offers h2,http/1.1
+19:13:58.108162 
+http.c:870             
+ == Info: TLSv1.3 
+(OUT), TLS handshake, 
+Client hello (1):
+19:13:58.429274 
+http.c:870             
+ == Info:  CAfile: 
+C:/Program Files/Git/mi
+ngw64/etc/ssl/certs/ca-
+bundle.crt
+19:13:58.429274 
+http.c:870             
+ == Info:  CApath: none
+19:13:58.430274 
+http.c:870             
+ == Info: TLSv1.3 
+(IN), TLS handshake, 
+Server hello (2):
+19:13:58.430274 
+http.c:870             
+ == Info: TLSv1.3 
+(IN), TLS handshake, 
+Encrypted Extensions 
+(8):
+19:13:58.430274 
+http.c:870             
+ == Info: TLSv1.3 
+(IN), TLS handshake, 
+Certificate (11):
+19:13:58.430274 
+http.c:870             
+ == Info: TLSv1.3 
+(IN), TLS handshake, 
+CERT verify (15):
+19:13:58.430274 
+http.c:870             
+ == Info: TLSv1.3 
+(IN), TLS handshake, 
+Finished (20):
+19:13:58.430274 
+http.c:870             
+ == Info: TLSv1.3 
+(OUT), TLS change 
+cipher, Change cipher 
+spec (1):
+19:13:58.430274 
+http.c:870             
+ == Info: TLSv1.3 
+(OUT), TLS handshake, 
+Finished (20):
+19:13:58.431277 
+http.c:870             
+ == Info: SSL 
+connection using 
+TLSv1.3 / 
+TLS_AES_128_GCM_SHA256
+19:13:58.431277 
+http.c:870             
+ == Info: ALPN: server 
+accepted h2
+19:13:58.431277 
+http.c:870             
+ == Info: Server 
+certificate:
+19:13:58.431277 
+http.c:870             
+ == Info:  subject: 
+CN=huggingface.co
+19:13:58.431277 
+http.c:870             
+ == Info:  start date: 
+Mar 14 00:00:00 2026 
+GMT
+19:13:58.431277 
+http.c:870             
+ == Info:  expire 
+date: Sep 27 23:59:59 
+2026 GMT
+19:13:58.431277 
+http.c:870             
+ == Info:  
+subjectAltName: host 
+"huggingface.co" 
+matched cert's 
+"huggingface.co"
+19:13:58.431277 
+http.c:870             
+ == Info:  issuer: 
+C=US; O=Amazon; 
+CN=Amazon RSA 2048 M04
+19:13:58.431277 
+http.c:870             
+ == Info:  SSL 
+certificate verify ok.
+19:13:58.431277 
+http.c:870             
+ == Info: using HTTP/2
+19:13:58.431277 
+http.c:870             
+ == Info: [HTTP/2] [1] 
+OPENED stream for https
+://huggingface.co/space
+s/vyshu02/Monuments-Ide
+ntification/info/refs?s
+ervice=git-receive-pack
+19:13:58.431277 
+http.c:870             
+ == Info: [HTTP/2] [1] 
+[:method: GET]
+19:13:58.431277 
+http.c:870             
+ == Info: [HTTP/2] [1] 
+[:scheme: https]
+19:13:58.431277 
+http.c:870             
+ == Info: [HTTP/2] [1] 
+[:authority: 
+huggingface.co]
+19:13:58.431277 
+http.c:870             
+ == Info: [HTTP/2] [1] 
+[:path: /spaces/vyshu02
+/Monuments-Identificati
+on/info/refs?service=gi
+t-receive-pack]
+19:13:58.431277 
+http.c:870             
+ == Info: [HTTP/2] [1] 
+[user-agent: 
+git/2.43.0.windows.1]
+19:13:58.431277 
+http.c:870             
+ == Info: [HTTP/2] [1] 
+[accept: */*]
+19:13:58.431277 
+http.c:870             
+ == Info: [HTTP/2] [1] 
+[accept-encoding: 
+deflate, gzip, br, 
+zstd]
+19:13:58.431277 
+http.c:870             
+ == Info: [HTTP/2] [1] 
+[pragma: no-cache]
+19:13:58.431277 
+http.c:817             
+ => Send header, 
+0000000219 bytes 
+(0x000000db)
+19:13:58.431277 
+http.c:829             
+ => Send header: GET /s
+paces/vyshu02/Monuments
+-Identification/info/re
+fs?service=git-receive-
+pack HTTP/2
+19:13:58.431277 
+http.c:829             
+ => Send header: Host: 
+huggingface.co
+19:13:58.431277 
+http.c:829             
+ => Send header: 
+User-Agent: 
+git/2.43.0.windows.1
+19:13:58.431277 
+http.c:829             
+ => Send header: 
+Accept: */*
+19:13:58.431277 
+http.c:829             
+ => Send header: 
+Accept-Encoding: 
+deflate, gzip, br, zstd
+19:13:58.431277 
+http.c:829             
+ => Send header: 
+Pragma: no-cache
+19:13:58.431277 
+http.c:829             
+ => Send header:
+19:13:58.450849 
+http.c:870             
+ == Info: TLSv1.3 
+(IN), TLS handshake, 
+Newsession Ticket (4):
+19:13:58.691675 
+http.c:817             
+ <= Recv header, 
+0000000013 bytes 
+(0x0000000d)
+19:13:58.691675 
+http.c:829             
+ <= Recv header: 
+HTTP/2 401
+19:13:58.691675 
+http.c:817             
+ <= Recv header, 
+0000000041 bytes 
+(0x00000029)
+19:13:58.691675 
+http.c:829             
+ <= Recv header: 
+content-type: 
+text/plain; 
+charset=utf-8
+19:13:58.691675 
+http.c:817             
+ <= Recv header, 
+0000000020 bytes 
+(0x00000014)
+19:13:58.691675 
+http.c:829             
+ <= Recv header: 
+content-length: 29
+19:13:58.691675 
+http.c:817             
+ <= Recv header, 
+0000000037 bytes 
+(0x00000025)
+19:13:58.691675 
+http.c:829             
+ <= Recv header: date: 
+Sun, 22 Mar 2026 
+13:44:00 GMT
+19:13:58.691675 
+http.c:817             
+ <= Recv header, 
+0000000046 bytes 
+(0x0000002e)
+19:13:58.691675 
+http.c:829             
+ <= Recv header: 
+www-authenticate: 
+Basic 
+realm="git-frontend"
+19:13:58.691675 
+http.c:817             
+ <= Recv header, 
+0000000032 bytes 
+(0x00000020)
+19:13:58.691675 
+http.c:829             
+ <= Recv header: 
+x-cache: Error from 
+cloudfront
+19:13:58.691675 
+http.c:817             
+ <= Recv header, 
+0000000071 bytes 
+(0x00000047)
+19:13:58.691675 
+http.c:829             
+ <= Recv header: via: 
+1.1 fc93b40927ecc3b1d5e
+4fffeca69b042.cloudfron
+t.net (CloudFront)
+19:13:58.692713 
+http.c:817             
+ <= Recv header, 
+0000000024 bytes 
+(0x00000018)
+19:13:58.692713 
+http.c:829             
+ <= Recv header: 
+x-amz-cf-pop: DEL54-P3
+19:13:58.692713 
+http.c:817             
+ <= Recv header, 
+0000000071 bytes 
+(0x00000047)
+19:13:58.692713 
+http.c:829             
+ <= Recv header: 
+x-amz-cf-id: nOGkKsQJBg
+Em6xPdykwhx8cVXG-c0xnk0
+AUf1NsMaZkl1mnFelYhwg==
+19:13:58.692713 
+http.c:817             
+ <= Recv header, 
+0000000002 bytes 
+(0x00000002)
+19:13:58.692713 
+http.c:829             
+ <= Recv header:
+19:13:58.692713 
+http.c:870             
+ == Info: Connection 
+#0 to host 
+huggingface.co left 
+intact
+19:13:59.049328 
+http.c:870             
+ == Info: Found bundle 
+for host: 
+0x1c43109afa0 [can 
+multiplex]
+19:13:59.049328 
+http.c:870             
+ == Info: Re-using 
+existing connection 
+with host 
+huggingface.co
+19:13:59.049328 
+http.c:870             
+ == Info: Server auth 
+using Basic with user 
+'vyshu02'
+19:13:59.049328 
+http.c:870             
+ == Info: [HTTP/2] [3] 
+OPENED stream for https
+://huggingface.co/space
+s/vyshu02/Monuments-Ide
+ntification/info/refs?s
+ervice=git-receive-pack
+19:13:59.049328 
+http.c:870             
+ == Info: [HTTP/2] [3] 
+[:method: GET]
+19:13:59.049328 
+http.c:870             
+ == Info: [HTTP/2] [3] 
+[:scheme: https]
+19:13:59.049328 
+http.c:870             
+ == Info: [HTTP/2] [3] 
+[:authority: 
+huggingface.co]
+19:13:59.049328 
+http.c:870             
+ == Info: [HTTP/2] [3] 
+[:path: /spaces/vyshu02
+/Monuments-Identificati
+on/info/refs?service=gi
+t-receive-pack]
+19:13:59.049328 
+http.c:870             
+ == Info: [HTTP/2] [3] 
+[authorization: Basic 
+<redacted>]
+19:13:59.049328 
+http.c:870             
+ == Info: [HTTP/2] [3] 
+[user-agent: 
+git/2.43.0.windows.1]
+19:13:59.049328 
+http.c:870             
+ == Info: [HTTP/2] [3] 
+[accept: */*]
+19:13:59.049328 
+http.c:870             
+ == Info: [HTTP/2] [3] 
+[accept-encoding: 
+deflate, gzip, br, 
+zstd]
+19:13:59.049328 
+http.c:870             
+ == Info: [HTTP/2] [3] 
+[pragma: no-cache]
+19:13:59.049328 
+http.c:817             
+ => Send header, 
+0000000302 bytes 
+(0x0000012e)
+19:13:59.049328 
+http.c:829             
+ => Send header: GET /s
+paces/vyshu02/Monuments
+-Identification/info/re
+fs?service=git-receive-
+pack HTTP/2
+19:13:59.049328 
+http.c:829             
+ => Send header: Host: 
+huggingface.co
+19:13:59.049328 
+http.c:829             
+ => Send header: 
+Authorization: Basic 
+<redacted>
+19:13:59.049328 
+http.c:829             
+ => Send header: 
+User-Agent: 
+git/2.43.0.windows.1
+19:13:59.049328 
+http.c:829             
+ => Send header: 
+Accept: */*
+19:13:59.049328 
+http.c:829             
+ => Send header: 
+Accept-Encoding: 
+deflate, gzip, br, zstd
+19:13:59.049328 
+http.c:829             
+ => Send header: 
+Pragma: no-cache
+19:13:59.049328 
+http.c:829             
+ => Send header:
+19:13:59.323484 
+http.c:817             
+ <= Recv header, 
+0000000013 bytes 
+(0x0000000d)
+19:13:59.323484 
+http.c:829             
+ <= Recv header: 
+HTTP/2 200
+19:13:59.323484 
+http.c:817             
+ <= Recv header, 
+0000000060 bytes 
+(0x0000003c)
+19:13:59.323484 
+http.c:829             
+ <= Recv header: 
+content-type: applicati
+on/x-git-receive-pack-a
+dvertisement
+19:13:59.323484 
+http.c:817             
+ <= Recv header, 
+0000000021 bytes 
+(0x00000015)
+19:13:59.323484 
+http.c:829             
+ <= Recv header: 
+content-length: 248
+19:13:59.323484 
+http.c:817             
+ <= Recv header, 
+0000000037 bytes 
+(0x00000025)
+19:13:59.323484 
+http.c:829             
+ <= Recv header: date: 
+Sun, 22 Mar 2026 
+13:44:00 GMT
+19:13:59.323484 
+http.c:817             
+ <= Recv header, 
+0000000025 bytes 
+(0x00000019)
+19:13:59.323484 
+http.c:829             
+ <= Recv header: 
+cache-control: no-cache
+19:13:59.323484 
+http.c:817             
+ <= Recv header, 
+0000000031 bytes 
+(0x0000001f)
+19:13:59.323484 
+http.c:829             
+ <= Recv header: 
+x-cache: Miss from 
+cloudfront
+19:13:59.323484 
+http.c:817             
+ <= Recv header, 
+0000000071 bytes 
+(0x00000047)
+19:13:59.323484 
+http.c:829             
+ <= Recv header: via: 
+1.1 fc93b40927ecc3b1d5e
+4fffeca69b042.cloudfron
+t.net (CloudFront)
+19:13:59.323484 
+http.c:817             
+ <= Recv header, 
+0000000024 bytes 
+(0x00000018)
+19:13:59.323484 
+http.c:829             
+ <= Recv header: 
+x-amz-cf-pop: DEL54-P3
+19:13:59.323484 
+http.c:817             
+ <= Recv header, 
+0000000071 bytes 
+(0x00000047)
+19:13:59.323484 
+http.c:829             
+ <= Recv header: 
+x-amz-cf-id: uP8a9j_Ns5
+SnrBuN-9yz8JqUewKpIhc89
+1RwE_8FfvgcUYaJYb3Lwg==
+19:13:59.323484 
+http.c:817             
+ <= Recv header, 
+0000000002 bytes 
+(0x00000002)
+19:13:59.323484 
+http.c:829             
+ <= Recv header:
+19:13:59.323484 
+http.c:870             
+ == Info: Connection 
+#0 to host 
+huggingface.co left 
+intact
+19:13:59.729531 trace 
+git-lfs: exec: git 
+'version'
+19:13:59.783830 trace 
+git-lfs: exec: git 
+'-c' 
+'filter.lfs.smudge=' 
+'-c' 
+'filter.lfs.clean=' 
+'-c' 
+'filter.lfs.process=' 
+'-c' 'filter.lfs.requir
+ed=false' 'remote' '-v'
+19:13:59.830716 trace 
+git-lfs: exec: git 
+'-c' 
+'filter.lfs.smudge=' 
+'-c' 
+'filter.lfs.clean=' 
+'-c' 
+'filter.lfs.process=' 
+'-c' 'filter.lfs.requir
+ed=false' 'remote'
+19:13:59.877901 trace 
+git-lfs: exec: git 
+'-c' 
+'filter.lfs.smudge=' 
+'-c' 
+'filter.lfs.clean=' 
+'-c' 
+'filter.lfs.process=' 
+'-c' 'filter.lfs.requir
+ed=false' 'rev-parse' 
+'HEAD' 
+'--symbolic-full-name' 
+'HEAD'
+19:13:59.923390 trace 
+git-lfs: exec: git 
+'-c' 
+'filter.lfs.smudge=' 
+'-c' 
+'filter.lfs.clean=' 
+'-c' 
+'filter.lfs.process=' 
+'-c' 'filter.lfs.requir
+ed=false' 'rev-parse' 
+'--git-dir' 
+'--show-toplevel'
+19:13:59.972193 trace 
+git-lfs: exec: uname 
+19:14:00.047303 trace 
+git-lfs: exec: git 
+'config' '--includes' 
+'-l'
+19:14:00.093231 trace 
+git-lfs: exec: git 
+'rev-parse' 
+'--is-bare-repository'
+19:14:00.140031 trace 
+git-lfs: exec: git 
+'config' '--includes' 
+'-l' '--blob' 
+':.lfsconfig'
+19:14:00.185553 trace 
+git-lfs: exec: git 
+'config' '--includes' 
+'-l' '--blob' 
+'HEAD:.lfsconfig'
+19:14:00.231364 trace 
+git-lfs: pre-push: 
+refs/heads/main 3eadab5
+70a5073a250a86c2c0c78dd
+d819005d06 
+refs/heads/main 06cf40b
+0511e40a1d7ec10e221bbc0
+be935d577f
+19:14:00.232392 trace 
+git-lfs: exec: git 
+'-c' 
+'filter.lfs.smudge=' 
+'-c' 
+'filter.lfs.clean=' 
+'-c' 
+'filter.lfs.process=' 
+'-c' 'filter.lfs.requir
+ed=false' 'show-ref'
+19:14:00.278513 trace 
+git-lfs: exec: git 
+'-c' 
+'filter.lfs.smudge=' 
+'-c' 
+'filter.lfs.clean=' 
+'-c' 
+'filter.lfs.process=' 
+'-c' 'filter.lfs.requir
+ed=false' 'ls-remote' 
+'--heads' '--tags' 
+'-q' 'hf'
+19:14:01.211201 trace 
+git-lfs: tq: running 
+as batched queue, 
+batch size of 100
+19:14:01.212576 trace 
+git-lfs: run_command: 
+git rev-list --objects 
+--ignore-missing 
+--stdin --
+19:14:01.212576 trace 
+git-lfs: exec: git 
+'-c' 
+'filter.lfs.smudge=' 
+'-c' 
+'filter.lfs.clean=' 
+'-c' 
+'filter.lfs.process=' 
+'-c' 'filter.lfs.requir
+ed=false' 'rev-list' 
+'--objects' 
+'--ignore-missing' 
+'--stdin' '--'
+19:14:01.220305 trace 
+git-lfs: exec: git 
+'-c' 
+'filter.lfs.smudge=' 
+'-c' 
+'filter.lfs.clean=' 
+'-c' 
+'filter.lfs.process=' 
+'-c' 'filter.lfs.requir
+ed=false' 'cat-file' 
+'--batch-check'
+19:14:01.231038 trace 
+git-lfs: exec: git 
+'-c' 
+'filter.lfs.smudge=' 
+'-c' 
+'filter.lfs.clean=' 
+'-c' 
+'filter.lfs.process=' 
+'-c' 'filter.lfs.requir
+ed=false' 'rev-parse' 
+'--git-common-dir'
+19:14:01.303118 trace 
+git-lfs: tq: sending 
+batch of size 1
+19:14:01.303118 trace 
+git-lfs: api: batch 1 
+files
+19:14:01.303689 trace 
+git-lfs: creds: git 
+credential fill 
+("https", 
+"huggingface.co", "")
+19:14:01.305114 trace 
+git-lfs: exec: git 
+'credential' 'fill'
+19:14:01.643975 trace 
+git-lfs: Filled 
+credentials for https:/
+/huggingface.co/spaces/
+vyshu02/Monuments-Ident
+ification
+19:14:01.647518 trace 
+git-lfs: HTTP: POST htt
+ps://huggingface.co/spa
+ces/vyshu02/Monuments-I
+dentification.git/info/
+lfs/objects/batch
+> POST /spaces/vyshu02/
+Monuments-Identificatio
+n.git/info/lfs/objects/
+batch HTTP/1.1
+> Host: huggingface.co
+> Accept: application/v
+nd.git-lfs+json
+> Authorization: Basic 
+* * * * *
+> Content-Length: 228
+> Content-Type: applica
+tion/vnd.git-lfs+json; 
+charset=utf-8
+> User-Agent: 
+git-lfs/3.4.0 (GitHub; 
+windows amd64; go 
+1.20.6; git d06d6e9e)
+> 
+{"operation":"upload","
+objects":[{"oid":"16f3a
+d6a7656cf6ef46fd42381b0
+b4254f1afeb087f45ac0ca8
+30e824c98dd1c","size":3
+554288}],"transfers":["
+basic","ssh","lfs-stand
+alone-file"],"ref":{"na
+me":"refs/heads/main"},
+"hash_algo":"sha256"}19
+:14:01.931816 trace 
+git-lfs: HTTP: 200
+
+
+< HTTP/2.0 200 OK
+< Content-Length: 122
+< Access-Control-Allow-
+Origin: 
+https://huggingface.co
+< Access-Control-Expose
+-Headers: X-Repo-Commit
+,X-Request-Id,X-Error-C
+ode,X-Error-Message,X-T
+otal-Count,ETag,Link,Ac
+cept-Ranges,Content-Ran
+ge,X-Linked-Size,X-Link
+ed-ETag,X-Xet-Hash
+< Access-Control-Max-Ag
+e: 86400
+< Content-Type: applica
+tion/vnd.git-lfs+json; 
+charset=utf-8
+< Cross-Origin-Opener-P
+olicy: same-origin
+< Date: Sun, 22 Mar 
+2026 13:44:03 GMT
+< Etag: W/"7a-jpR/ou+Rl
+0wK7xZVWbdLqhRo4sk"
+< Ratelimit: 
+"api";r=989;t=269
+< Ratelimit-Policy: 
+"fixed window";"api";q=
+1000;w=300
+< Referrer-Policy: stri
+ct-origin-when-cross-or
+igin
+< Vary: Origin
+< Via: 1.1 caf03e018ab5
+1e743461ee41e1a16c60.cl
+oudfront.net 
+(CloudFront)
+< X-Amz-Cf-Id: ZguIvMQw
+QKAS0zLJpIXPIOa7_GYY0DP
+vewrMqpoSTnPt-mc_aJndVA
+==
+< X-Amz-Cf-Pop: 
+DEL54-P3
+< X-Cache: Miss from 
+cloudfront
+< X-Powered-By: 
+huggingface-moon
+< X-Request-Id: Root=1-
+69bff223-1539e06c51e207
+6e6e52380c
+< 
+19:14:01.932370 trace 
+git-lfs: creds: git 
+credential approve 
+("https", 
+"huggingface.co", "")
+19:14:01.933524 trace 
+git-lfs: exec: git 
+'credential' 'approve'
+19:14:02.343922 trace 
+git-lfs: HTTP: {"transf
+er":"basic","objects":[
+{"oid":"16f3ad6a7656cf6
+ef46fd42381b0b4254f1afe
+b087f45ac0ca830e824c98d
+d1c","size":3554288}]}
+{"transfer":"basic","ob
+jects":[{"oid":"16f3ad6
+a7656cf6ef46fd42381b0b4
+254f1afeb087f45ac0ca830
+e824c98dd1c","size":355
+4288}]}19:14:02.343922 
+trace git-lfs: tq: 
+starting transfer 
+adapter "basic"
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" Begin() with 8 
+workers
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" started
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" End()
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 0 
+starting
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 0 
+stopping
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 1 
+starting
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 1 
+waiting for Auth
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 1 auth 
+signal received
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 1 
+stopping
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 2 
+starting
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 2 
+waiting for Auth
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 2 auth 
+signal received
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 2 
+stopping
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 3 
+starting
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 3 
+waiting for Auth
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 3 auth 
+signal received
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 3 
+stopping
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 4 
+starting
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 4 
+waiting for Auth
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 4 auth 
+signal received
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 4 
+stopping
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 5 
+starting
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 5 
+waiting for Auth
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 5 auth 
+signal received
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 5 
+stopping
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 6 
+starting
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 6 
+waiting for Auth
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 6 auth 
+signal received
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 6 
+stopping
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 7 
+starting
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 7 
+waiting for Auth
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 7 auth 
+signal received
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" worker 7 
+stopping
+19:14:02.343922 trace 
+git-lfs: xfer: adapter 
+"basic" stopped
+Uploading LFS objects: 100% (1/1), 3.6 MB | 0 B/s, done.
+19:14:02.346629 trace 
+git-lfs: 
+filepathfilter: 
+creating pattern 
+".git" of type 
+gitignore
+19:14:02.347168 trace 
+git-lfs: 
+filepathfilter: 
+creating pattern 
+"**/.git" of type 
+gitignore
+19:14:02.347168 trace 
+git-lfs: 
+filepathfilter: 
+accepting "tmp"
+19:14:02.694499 
+http.c:870             
+ == Info: Found bundle 
+for host: 
+0x1c43109afa0 [can 
+multiplex]
+19:14:02.694499 
+http.c:870             
+ == Info: Re-using 
+existing connection 
+with host 
+huggingface.co
+19:14:02.694499 
+http.c:870             
+ == Info: Server auth 
+using Basic with user 
+'vyshu02'
+19:14:02.694499 
+http.c:870             
+ == Info: [HTTP/2] [5] 
+OPENED stream for https
+://huggingface.co/space
+s/vyshu02/Monuments-Ide
+ntification/git-receive
+-pack
+19:14:02.694499 
+http.c:870             
+ == Info: [HTTP/2] [5] 
+[:method: POST]
+19:14:02.694499 
+http.c:870             
+ == Info: [HTTP/2] [5] 
+[:scheme: https]
+19:14:02.694499 
+http.c:870             
+ == Info: [HTTP/2] [5] 
+[:authority: 
+huggingface.co]
+19:14:02.694499 
+http.c:870             
+ == Info: [HTTP/2] [5] 
+[:path: /spaces/vyshu02
+/Monuments-Identificati
+on/git-receive-pack]
+19:14:02.694499 
+http.c:870             
+ == Info: [HTTP/2] [5] 
+[authorization: Basic 
+<redacted>]
+19:14:02.694499 
+http.c:870             
+ == Info: [HTTP/2] [5] 
+[user-agent: 
+git/2.43.0.windows.1]
+19:14:02.694499 
+http.c:870             
+ == Info: [HTTP/2] [5] 
+[content-type: applicat
+ion/x-git-receive-pack-
+request]
+19:14:02.694499 
+http.c:870             
+ == Info: [HTTP/2] [5] 
+[accept: application/x-
+git-receive-pack-result
+]
+19:14:02.694499 
+http.c:870             
+ == Info: [HTTP/2] [5] 
+[content-length: 4]
+19:14:02.695498 
+http.c:817             
+ => Send header, 
+0000000332 bytes 
+(0x0000014c)
+19:14:02.695498 
+http.c:829             
+ => Send header: POST /
+spaces/vyshu02/Monument
+s-Identification/git-re
+ceive-pack HTTP/2
+19:14:02.695498 
+http.c:829             
+ => Send header: Host: 
+huggingface.co
+19:14:02.695498 
+http.c:829             
+ => Send header: 
+Authorization: Basic 
+<redacted>
+19:14:02.695498 
+http.c:829             
+ => Send header: 
+User-Agent: 
+git/2.43.0.windows.1
+19:14:02.695498 
+http.c:829             
+ => Send header: 
+Content-Type: applicati
+on/x-git-receive-pack-r
+equest
+19:14:02.695498 
+http.c:829             
+ => Send header: 
+Accept: application/x-g
+it-receive-pack-result
+19:14:02.695498 
+http.c:829             
+ => Send header: 
+Content-Length: 4
+19:14:02.695498 
+http.c:829             
+ => Send header:
+19:14:02.988262 
+http.c:817             
+ <= Recv header, 
+0000000013 bytes 
+(0x0000000d)
+19:14:02.988262 
+http.c:829             
+ <= Recv header: 
+HTTP/2 200
+19:14:02.988262 
+http.c:817             
+ <= Recv header, 
+0000000053 bytes 
+(0x00000035)
+19:14:02.988262 
+http.c:829             
+ <= Recv header: 
+content-type: applicati
+on/x-git-receive-pack-r
+esult
+19:14:02.988262 
+http.c:817             
+ <= Recv header, 
+0000000019 bytes 
+(0x00000013)
+19:14:02.988262 
+http.c:829             
+ <= Recv header: 
+content-length: 0
+19:14:02.988262 
+http.c:817             
+ <= Recv header, 
+0000000037 bytes 
+(0x00000025)
+19:14:02.988262 
+http.c:829             
+ <= Recv header: date: 
+Sun, 22 Mar 2026 
+13:44:04 GMT
+19:14:02.988262 
+http.c:817             
+ <= Recv header, 
+0000000025 bytes 
+(0x00000019)
+19:14:02.988262 
+http.c:829             
+ <= Recv header: 
+cache-control: no-cache
+19:14:02.988262 
+http.c:817             
+ <= Recv header, 
+0000000031 bytes 
+(0x0000001f)
+19:14:02.988262 
+http.c:829             
+ <= Recv header: 
+x-cache: Miss from 
+cloudfront
+19:14:02.988262 
+http.c:817             
+ <= Recv header, 
+0000000071 bytes 
+(0x00000047)
+19:14:02.988262 
+http.c:829             
+ <= Recv header: via: 
+1.1 fc93b40927ecc3b1d5e
+4fffeca69b042.cloudfron
+t.net (CloudFront)
+19:14:02.988262 
+http.c:817             
+ <= Recv header, 
+0000000024 bytes 
+(0x00000018)
+19:14:02.988262 
+http.c:829             
+ <= Recv header: 
+x-amz-cf-pop: DEL54-P3
+19:14:02.988262 
+http.c:817             
+ <= Recv header, 
+0000000071 bytes 
+(0x00000047)
+19:14:02.988262 
+http.c:829             
+ <= Recv header: 
+x-amz-cf-id: z3XMDQWaOg
+QGecwfe7w2yfDw57TcACoPu
+DI6m4NOIKhVABAnbgXW0Q==
+19:14:02.988262 
+http.c:817             
+ <= Recv header, 
+0000000002 bytes 
+(0x00000002)
+19:14:02.988262 
+http.c:829             
+ <= Recv header:
+19:14:02.988262 
+http.c:870             
+ == Info: Connection 
+#0 to host 
+huggingface.co left 
+intact
+19:14:02.988262 
+http.c:870             
+ == Info: Found bundle 
+for host: 
+0x1c43109afa0 [can 
+multiplex]
+19:14:02.988262 
+http.c:870             
+ == Info: Re-using 
+existing connection 
+with host 
+huggingface.co
+19:14:02.988262 
+http.c:870             
+ == Info: Server auth 
+using Basic with user 
+'vyshu02'
+19:14:02.988262 
+http.c:870             
+ == Info: [HTTP/2] [7] 
+OPENED stream for https
+://huggingface.co/space
+s/vyshu02/Monuments-Ide
+ntification/git-receive
+-pack
+19:14:02.988262 
+http.c:870             
+ == Info: [HTTP/2] [7] 
+[:method: POST]
+19:14:02.988262 
+http.c:870             
+ == Info: [HTTP/2] [7] 
+[:scheme: https]
+19:14:02.988262 
+http.c:870             
+ == Info: [HTTP/2] [7] 
+[:authority: 
+huggingface.co]
+19:14:02.988262 
+http.c:870             
+ == Info: [HTTP/2] [7] 
+[:path: /spaces/vyshu02
+/Monuments-Identificati
+on/git-receive-pack]
+19:14:02.988262 
+http.c:870             
+ == Info: [HTTP/2] [7] 
+[authorization: Basic 
+<redacted>]
+19:14:02.988262 
+http.c:870             
+ == Info: [HTTP/2] [7] 
+[user-agent: 
+git/2.43.0.windows.1]
+19:14:02.988262 
+http.c:870             
+ == Info: [HTTP/2] [7] 
+[accept-encoding: 
+deflate, gzip, br, 
+zstd]
+19:14:02.988262 
+http.c:870             
+ == Info: [HTTP/2] [7] 
+[content-type: applicat
+ion/x-git-receive-pack-
+request]
+19:14:02.988262 
+http.c:870             
+ == Info: [HTTP/2] [7] 
+[accept: application/x-
+git-receive-pack-result
+]
+19:14:02.988262 
+http.c:817             
+ => Send header, 
+0000000355 bytes 
+(0x00000163)
+19:14:02.988262 
+http.c:829             
+ => Send header: POST /
+spaces/vyshu02/Monument
+s-Identification/git-re
+ceive-pack HTTP/2
+19:14:02.988262 
+http.c:829             
+ => Send header: Host: 
+huggingface.co
+19:14:02.988262 
+http.c:829             
+ => Send header: 
+Authorization: Basic 
+<redacted>
+19:14:02.988262 
+http.c:829             
+ => Send header: 
+User-Agent: 
+git/2.43.0.windows.1
+19:14:02.988262 
+http.c:829             
+ => Send header: 
+Accept-Encoding: 
+deflate, gzip, br, zstd
+19:14:02.988262 
+http.c:829             
+ => Send header: 
+Content-Type: applicati
+on/x-git-receive-pack-r
+equest
+19:14:02.988262 
+http.c:829             
+ => Send header: 
+Accept: application/x-g
+it-receive-pack-result
+19:14:02.988262 
+http.c:829             
+ => Send header:
+fatal: the remote end 
+hung up unexpectedly
+error: failed to push 
+some refs to 'https://h
+uggingface.co/spaces/vy
+shu02/Monuments-Identif
+ication'
