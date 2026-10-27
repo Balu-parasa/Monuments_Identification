@@ -44,24 +44,6 @@ The project consists of two independent modules:
 
 ---
 
-# 🏗️ Architecture
-
-```
-                Image
-                  │
-                  ▼
-         React Native Mobile App
-                  │
-                  ▼
-         Deep Learning Model
-                  │
-                  ▼
-      Monument Prediction Result
-                  │
-                  ▼
- Historical & Cultural Information
-```
-
 ---
 
 # 🛠️ Tech Stack
